@@ -1,7 +1,7 @@
 import './globals.css'
 import Noise from "./components/noise";
 import { Inter } from 'next/font/google'
- 
+ import { Analytics } from "@vercel/analytics/next"
 const roboto = Inter({
   weight: ['400', '500'],
   subsets: ['latin'],
@@ -25,12 +25,13 @@ export const metadata = {
 
 export default function RootLayout({children}) {
   console.log("Hey there, curious developer! You found me.");
-  // 404, Page could not be loaded due to missing computational resources
+  
   return (
     <html lang="en" className={roboto.className}>
       <body>
         <Noise />
         {children}
+        <Analytics />
       </body>
     </html>
   )
