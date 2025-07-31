@@ -2,6 +2,8 @@ import './globals.css'
 import Noise from "./components/noise";
 import { Inter } from 'next/font/google'
  import { Analytics } from "@vercel/analytics/next"
+ import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const roboto = Inter({
   weight: ['400', '500'],
   subsets: ['latin'],
@@ -31,6 +33,7 @@ export default function RootLayout({children}) {
       <body>
         <Noise />
         {children}
+        <SpeedInsights />
         <Analytics />
       </body>
     </html>
