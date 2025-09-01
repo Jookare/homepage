@@ -58,7 +58,7 @@ const Research = () => {
                             { name: "Ernst C. Wit" },
                         ]}
                         links={[
-                            { label: "Paper", href: "https://lutpub.lut.fi/handle/10024/164141" },
+                            { label: "Paper", href: "https://lutpub.lut.fi/handle/10024/167615" },
                         ]}
                         forum="Master's Thesis"
                     />
