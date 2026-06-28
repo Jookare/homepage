@@ -11,7 +11,8 @@ const News = () => {
                 <li>July 2024: Start PhD position.</li>
             </ul> */}
             <ul className="timeline timeline-vertical">
-                <NewsItem date={"July 2025"} title={"Attended the International Computer Vision Summer School (ICVSS 2025) in Sicily!"}  bot />
+                <NewsItem date={"April 2026"} title={"Paper accepted to ICPR 2026!"} bot />
+                <NewsItem date={"July 2025"} title={"Attended the International Computer Vision Summer School (ICVSS 2025) in Sicily!"} top bot />
                 <NewsItem date={"Apr 2025"} title={"Paper accepted to CVPR 2025 workshop!"} top bot />
                 <NewsItem date={"Aug 2024"} title={"Paper accepted to ECCV 2024 workshop!"} top bot />
                 <NewsItem date={"Aug 2024"} title={"Attended ML for Atmospheric Science Summer School"} top bot />
