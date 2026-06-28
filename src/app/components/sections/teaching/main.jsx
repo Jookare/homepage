@@ -7,6 +7,7 @@ const Teaching = () => {
                 <h1 className="text-2xl md:text-3xl  font-medium mb-2">Teaching</h1>
                 <div className="flex flex-col gap-2">
                     <p className="text-gray-500 font-semibold">Courses</p>
+                    <TeachingItem course="3D Computer Vision (Spring 2026)" university="LUT University" role="Teaching Assitant" />
                     <TeachingItem course="3D Computer Vision (Spring 2025)" university="LUT University" role="Teaching Assitant" />
                     <TeachingItem course="Numerical Methods (Spring 2023)" university="LUT University" role="Teaching Assitant" />
                     <TeachingItem course="Mathematics III (Spring 2022)" university="LUT University" role="Teaching Assitant" />

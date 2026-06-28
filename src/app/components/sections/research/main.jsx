@@ -7,7 +7,25 @@ const Research = () => {
             <div className="flex flex-col gap-2">
                 <p className="text-gray-500 font-semibold">Journal Articles & Conference Papers</p>
                 <div className="flex flex-col gap-4">
-
+                <ResearchItem
+                        imageSrc="/pub3.png"
+                        title="Cross-modal learning for plankton recognition"
+                        authors={[
+                            { name: "Joona Kareinen", isHighlighted: true },
+                            { name: "Veikka Immonen" },
+                            { name: "Tuomas Eerola" },
+                            { name: "Lumi Haraguchi" },
+                            { name: "Lasse Lensu" },
+                            { name: "Kaisa Kraft" },
+                            { name: "Sanna Suikkanen" },
+                            { name: "Heikki Kälviäinen" },
+                        ]}
+                        links={[
+                            { label: "Paper", href: "https://arxiv.org/abs/2603.16427" },
+                            { label: "Code", href: "https://github.com/Jookare/cross-modal-plankton" },
+                        ]}
+                        forum="CVPR 2025, FGVC12 workshop"
+                    />
                     <ResearchItem
                         imageSrc="/pub2.png"
                         title="Self-Supervised Pretraining for Fine-Grained Plankton Recognition"
